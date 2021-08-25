@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+  width: 100%;
+  background-color: cadetblue;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  border: 2px solid slategray;
+  border-radius:  25px;
+  background-color: rgb(39, 39, 34);
+  color: #fff;
+}
+
+.menu{
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+
+.menu form{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.menu form input{
+  height: 35px;
+  width: 300px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 550;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman';
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: beige;
+  color: rgb(39, 39, 34);
+}
+
+.menu form button,
+.quiz-end button
+{
+  height: 30px;
+  width: 150px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: 'Times New Roman';
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(39, 39, 34);
+  color: #fff;
+  transition: all 0.4s ease-in;
+}
+
+.menu form button:hover{
+  color: rgb(39, 39, 34);
+  background-color: #fff;
+}
+
+.quiz{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.quiz .btns{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz .btns button{
+  height: 30px;
+  width: 15%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  border: 2px solid rgb(39, 39, 34);
+  border-radius: 7px;
+  transition: all 0.4s ease-in-out;
+}
+
+.quiz .btns button:hover{
+  color: #fff;
+  background-color: rgb(39, 39, 34);
+  border-color: #fff;
+}
+
+.frame-questions{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.frame-questions .options{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around
+}
+
+.frame-questions .options button{ 
+  height: 25px;
+  width: 50%;
+  font-size: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+  transition: all 0.4s ease-in-out;
+}
+
+.frame-questions .options button:hover{ 
+  color: #fff;
+  background-color: green;
+}
+
+.quiz-end{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+
+.quiz-end button:hover{
+  color: rgb(39, 39, 34);
+  background-color: #fff;
+}
