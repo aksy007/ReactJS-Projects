@@ -1,0 +1,20 @@
+.authPage {
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: aqua;
+}
+
+.login-btn {
+  width: 300px;
+  margin: 15px auto 0px auto;
+  padding: 15px 0;
+  border: none;
+  background: rgb(17, 17, 17);
+  font-family: "Inter";
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
