@@ -20,7 +20,7 @@ function AuthenticationPage() {
                 <div className="login">
                     <h1>Blogger</h1>
                     <GoogleLogin 
-                        clientId="720873617895-739in30cea39louhidsp9j46ojeql0hh.apps.googleusercontent.com"
+                        clientId="CLIENT_ID"
                         render={(renderProps) => (
                             <button
                                 onClick={renderProps.onClick}
